@@ -3,3 +3,16 @@ fastapi
 gunicorn
 BeautifulSoup4
 uvicorn
+astroid
+Click
+colorama
+h11
+isort
+lazy-object-proxy
+mccade
+pydantic
+pylint
+six
+starlette
+websockets
+wrapt
