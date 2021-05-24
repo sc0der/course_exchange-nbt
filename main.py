@@ -12,6 +12,6 @@ keys = [x.text.strip() for x in kursTableItemsKey]
 values = [x.text.strip() for x in kursTableItemsValue]
 dicts = {keys[i][2:]:values[i] for i in range(len(keys))}
 
-@app.get("/nbt/simple/course")
+@app.get("/exchange/nbt")
 def read_root():
     return dicts
