@@ -9,7 +9,7 @@ colorama
 h11
 isort
 lazy-object-proxy
-mccade
+mccabe
 pydantic
 pylint
 six
